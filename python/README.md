@@ -56,7 +56,7 @@ You can use the [LambCI Docker images](https://github.com/lambci/docker-lambda) 
 # current dir: geolambda/python
 
 $ docker run -e GDAL_DATA=/opt/share/gdal -e PROJ_LIB=/opt/share/proj \
-	--rm -v ${PWD}/lambda:/var/task lambci/lambda:python3.7 lambda_function.lambda_handler '{}'
+	--rm -v ${PWD}/lambda:/var/task lambci/lambda:python3.10 lambda_function.lambda_handler '{}'
 ```
 
 The last argument is a JSON string that will be passed as the event payload to the handler function.

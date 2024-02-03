@@ -31,7 +31,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Zstd 1.4.5
 - OpenSSL 1.1.1
 - In python layer:
-    - Python 3.7.4 -> 3.7.9
+    - Python 3.7.4 -> .9
     - rasterio 1.1.0 -> 1.2.0
     - shapely 1.6.4.post2 -> 1.7.1
     - pyproj 2.4.0 -> 3.0.0.post1
